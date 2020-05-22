@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <cmath>
 #include <map>
+#include <queue>
 #define rep(i,cc,n) for(int i=cc;i<=n;++i)
 #define drep(i,cc,n) for(int i=cc;i>=n;--i)
 template<class T>bool chmax(T &a, const T &b) { if (a<b) { a=b; return 1; } return 0; }
